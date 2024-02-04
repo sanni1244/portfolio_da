@@ -298,11 +298,30 @@
 
 @media (max-width: 500px) {
     .project-card {
-        width: 300px;
+        width: 400px;
         margin: 20px;
-        border-radius: 10px;
-        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
-        overflow: hidden; 
       }
 
+      .project-title {
+        font-size: 1rem;
+        margin-bottom: 3px;
+      }
+      
+      .project-description {
+        font-size: 0.8rem;
+      }
+}
+@media (max-width: 400px) {
+    .project-card {
+        width: 300px;
+        margin: 10px;
+      }
+
+
+      .project-description {
+        font-size: 0.8rem;
+        margin-top: 0rem;
+        line-height: 1.6em;
+    
+      }
 }
