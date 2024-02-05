@@ -3,4 +3,4 @@
 https://sanni1244.github.io/portfolio_da
 
 
-This is my portfolio highlighting my works on Data analytics
+This is my portfolio highlighting my works on data analytics.
