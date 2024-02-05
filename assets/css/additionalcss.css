@@ -8,18 +8,20 @@
     color: var(---mainC) !important;
     fill: var(---mainC);
 }
+
 .mainback {
     background-color: var(---mainC) !important;
 }
 
-.aboutpath{
+.aboutpath {
     background-color: white !important;
-    
+
     color: black !important;
     font-family: var(---afont);
     font-weight: 400;
 }
-.aboutpath h2{
+
+.aboutpath h2 {
     color: rgb(95, 149, 95);
     font-weight: 800;
     font-family: Arial, Helvetica, sans-serif;
@@ -35,6 +37,7 @@
     width: 25px;
     margin-right: 6px;
 }
+
 .spotlight .content p {
     font-size: 14px;
     text-align: left;
@@ -42,8 +45,8 @@
 
 }
 
-.spotlight .content .contact-info{
-    background-color: var(---coreo) !important; 
+.spotlight .content .contact-info {
+    background-color: var(---coreo) !important;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 1rem;
@@ -52,6 +55,7 @@
     border-radius: 1rem;
     padding-bottom: 1rem;
 }
+
 .spotlight .content p a {
     color: rgb(238, 238, 238);
     text-decoration: none !important;
@@ -97,7 +101,7 @@
 
 .body p::first-letter {
     font-size: 1.2em;
-    color: #3498db;
+    color: #181d20;
 }
 
 .body div:hover {
@@ -110,29 +114,34 @@
     color: rgb(142, 225, 114);
 
 }
+
 @media (min-width: 950px) {
-    .content{
+    .content {
         display: flex;
         align-items: center;
         gap: 1rem;
     }
-    .spotlight .content{
+
+    .spotlight .content {
         max-width: 100%;
         width: 100%;
     }
-.spotlight .content .contact-info{
-    min-width: 400px;
-    gap: 0rem !important;
-    margin-top: 5rem;
-    height: 16rem;
-}
-.spotlight .content p{
-    margin: 0px 1rem -10px 10px !important;
 
-}
-.content{
-    margin-bottom: 6rem;
-}
+    .spotlight .content .contact-info {
+        min-width: 400px;
+        gap: 0rem !important;
+        margin-top: 5rem;
+        height: 16rem;
+    }
+
+    .spotlight .content p {
+        margin: 0px 1rem -10px 10px !important;
+
+    }
+
+    .content {
+        margin-bottom: 6rem;
+    }
 }
 
 .stylenew {
@@ -198,6 +207,7 @@
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -207,13 +217,14 @@
     animation: fadeIn 1s ease-in-out;
 }
 
-.fa{
+.fa {
     /* font-size: 13rem; */
     /* font-family: var(---afont); */
     font-weight: 500;
     line-height: 1.7rem;
 }
-.linked-col{
+
+.linked-col {
     background-color: #0A66C2;
 }
 
@@ -241,37 +252,37 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px; 
-  }
-  
-  .project-card {
+    margin-top: 50px;
+}
+
+.project-card {
     width: max(40vw, 500px);
     margin: 20px;
     border-radius: 10px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
-    overflow: hidden; 
-  }
-  
-  .project-image {
+    overflow: hidden;
+}
+
+.project-image {
     width: 100%;
-    height: 250px; 
-    object-fit: cover; 
-  }
-  
-  .project-details {
+    height: 250px;
+    object-fit: cover;
+}
+
+.project-details {
     padding: 20px;
     text-align: center;
-  }
-  
-  .project-title {
+}
+
+.project-title {
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 10px;
-  }
-  
-  .project-description {
+}
+
+.project-description {
     font-size: 0.9rem;
-    color: #666;  
+    color: #666;
     line-height: 1.5;
     margin-bottom: 15px;
     text-align: justify !important;
@@ -281,47 +292,68 @@
     font-family: 'Arial', sans-serif;
 
 
-  }
-  
-  .project-link {
-    background-color: #007bff; 
+}
+
+.project-link {
+    background-color: #007bff;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.2s ease-in-out;
-  }
-  
-  .project-link:hover {
-    background-color: #0062cc;  }
+}
+
+.project-link:hover {
+    background-color: #0062cc;
+}
 
 
 @media (max-width: 500px) {
     .project-card {
         width: 400px;
         margin: 20px;
-      }
+    }
 
-      .project-title {
+    .project-title {
         font-size: 1rem;
         margin-bottom: 3px;
-      }
-      
-      .project-description {
+    }
+
+    .project-description {
         font-size: 0.8rem;
-      }
+    }
 }
+
 @media (max-width: 400px) {
     .project-card {
         width: 300px;
         margin: 10px;
-      }
+    }
 
-
-      .project-description {
+    .project-description {
         font-size: 0.8rem;
         margin-top: 0rem;
         line-height: 1.6em;
-    
-      }
+    }
+
+    .spotlight .content p {
+        margin-right: 1rem;
+    }
+
+    .body {
+        padding: 0px;
+    }
+
+    .body div {
+        margin-bottom: 2.5rem;
+    }
+
+    .body p::first-letter {
+        font-size: 1.1em;
+    }
+
+    .body div:hover {
+        transform: scale(1.02);
+    }
+
 }
